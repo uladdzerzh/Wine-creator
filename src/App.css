@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(157, 146, 255);
+  color: black;
+}
+
+.wrapper {
+  padding-top: 30px;
+}
+
+body h3 {
+  margin-bottom: 25px;
+}
+
+.navbar-brand a {
+  color: #ffffff;
+}
+
+.form-wrapper,
+.table-wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.table-wrapper {
+  max-width: 1000px;
+}
+
+.edit-link {
+  padding: 7px 10px;
+  font-size: 0.875rem;
+  line-height: normal;
+  border-radius: 0.2rem;
+  color: #fff;
+  background-color: rgb(161, 140, 229);
+  border-color: #28a745;
+  margin-right: 10px;  
+  position: relative;
+  top: 2px;
+  text-decoration: none;
+}
+
+.edit-link:hover {
+  transition: .2s;
+  background-color: rgb(118, 102, 170);
+  color: #ffffff;
+}
+
+.action {
+  max-width: 200px;
+}
+
+.nav-link {
+  background-color: rgb(58, 50, 83);
+  border-radius: 0.5rem;
+  margin-right: 5px;
+}
+
+.nav-link:hover {
+  color: rgb(161, 140, 229);
+  background-color: rgb(92, 79, 131);
+}
+
+.nav-link:focus {
+  color: white;
+  background-color: rgb(58, 50, 83);
+}
